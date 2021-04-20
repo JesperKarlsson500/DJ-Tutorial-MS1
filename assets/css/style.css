@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap|Oswald');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  font-family: Oswald;
+  margin: 0;
+  padding: 0;
+}
+/*----------------------------------------------page-one*/
+.page-one {
+  height: 100vh;
+  width: 100%;
+}

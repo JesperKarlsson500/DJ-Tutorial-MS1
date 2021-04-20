@@ -27,3 +27,7 @@ Play: Under construction.
 Tutorial: Under construction.
 Challange: Under construction.
 Contact: Under construction.
+
+## Code take from the internet and used in my project.
+
+Navbar taken from https://www.youtube.com/watch?v=At4B7A4GOPg
