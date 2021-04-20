@@ -10,11 +10,19 @@ body {
   padding: 0;
 }
 
+h2 a {
+  color: white;
+  text-decoration: none;
+}
+
 /*----------------------------------------------page-one*/
 .page-one {
   height: 100vh;
   width: 100%;
 }
+
+/*----------------------------------------------Hero boxes*/
+
 
 /*----------------------------------------------Navbar*/
 .navbar  {
