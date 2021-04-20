@@ -9,21 +9,20 @@ E-mail: jesper.karlsson500@gmail.com
 
 This is a dj tutorial website designed to give you a basic understanding and teaching you how to DJ. 
 
-It consist of five pages:
+It consist of four pages:
 index/Home: introduction
-Play: play area were you can have fun
-Tutorial: Step by step guide in how to dj
-Challange: Test your skills
-Contact: name, lastname, email and write a comment.
+Tutorial: Step by step DJ tutorial
+Challange: Test your skills and prove that you can DJ
+Contact: Sign up with Name, Lastname, Email and write a comment.
 
-DJ tutorial is a website designed to teach everyone on how to DJ. 
-with an step by step tutorial, a playground to have fun in and a challange at the end to test your skills.
+DJ tutorial is a website designed to teach everyone the basics on how to DJ. 
+With an step by step tutorial and a challange that will test your skills we make sure you know what to do.
+Sign up to join the advanced course today.
 
 ## Code languages used is the making of this website: HTML, CSS and sript.js.
 
 ## Current status of development: 
 Home. Under construction.
-Play: Under construction.
 Tutorial: Under construction.
 Challange: Under construction.
 Contact: Under construction.

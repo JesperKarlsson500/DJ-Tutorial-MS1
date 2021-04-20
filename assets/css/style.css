@@ -9,8 +9,101 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /*----------------------------------------------page-one*/
 .page-one {
   height: 100vh;
   width: 100%;
+}
+
+/*----------------------------------------------Navbar*/
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+}
+
+.brand-title {
+  text-transform: uppercase;  
+  font-size: 2.2rem;
+  margin-left: .7rem;
+  
+}
+
+.navbar-links ul {
+    left: 50px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+  display: block;
+}
+
+.navbar-links li:hover {
+  border-bottom: 1px solid white;
+  
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
