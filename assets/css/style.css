@@ -18,13 +18,13 @@ h2 a {
 /*----------------------------------------------page-one*/
 .page-one {
     background-color: gray;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
 /*----------------------------------------------Hero boxes*/
 .container-box {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .hero-box1 {
@@ -213,7 +213,7 @@ iframe {
 
 @media only screen and (max-width: 1200px) {
   .container-box {
-    margin-top: 220px;
+    margin-top: 170px;
 }
   
     .hero-box1 {
@@ -244,7 +244,7 @@ iframe {
 
 @media only screen and (max-width: 768px) {
     .container-box {
-    margin-top: 200px;
+    margin-top: 150px;
 }
   
     .hero-box1 {
@@ -285,7 +285,9 @@ iframe {
 }
 
 @media only screen and (max-width:  576px) {
-    
+    .container-box {
+    margin-top: 120px;
+}
 
     iframe {
       height: 120px;
