@@ -17,12 +17,51 @@ h2 a {
 
 /*----------------------------------------------page-one*/
 .page-one {
-  height: 100vh;
-  width: 100%;
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
 }
 
 /*----------------------------------------------Hero boxes*/
+.container-box {
+    margin-top: 35%;
+}
 
+.hero-box1 {
+  background-color: rgba(65, 64, 64, 0.6);
+  width: 40%;
+  left: 30%;
+  height: 110px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+
+.hero-box2 {
+  background-color: rgba(65, 64, 64, 0.6);
+  width: 30%;
+  left: 35%;
+  height: 100px;
+  margin: 20px 0 0;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px white;
+}
+
+.hero-box3 {
+  background-color: rgba(65, 64, 64, 0.6);
+  width: 20%;
+  left: 40%;
+  height: 90px;
+  margin: 20px 0 0 0;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px #ff4000;
+}
 
 /*----------------------------------------------Navbar*/
 .navbar  {
@@ -114,4 +153,16 @@ h2 a {
     .navbar-links.active {
         display: flex;
     }
+}
+
+.page-two {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.page-three {
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
 }
