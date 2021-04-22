@@ -182,30 +182,49 @@ left: 50px;
 }
 
 /*----------------------------------------------Page Two*/
-.page-two {
+#page-two {
     background-color: white;
     height: 100vh;
     width: 100%;
 }
 
-.section-header {
-  margin: 0 0 25px 0;
-  width: 80%;
-  left: 10%;
-  text-align: center;
-  position: relative;
-  font-size: 2.7rem;
-  text-transform: uppercase;
+.test {
+    width: 20%;
+    background-color: black;
+    border: none;
+}
+
+.page-two-header {
+    margin: 0 0 25px 0;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.page-two-font-style1 {
+    margin: 0 0 25px 0;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+}
+
+.container-iframe {
+    top:150px;
 }
 
 iframe {
-  height: 150px;
-  width: 50%;
-  left: 25%;
-  margin: 20px 0;
-  position: relative;
-  text-align: center;
-  border-radius: 10px;
+    height: 150px;
+    width: 50%;
+    left: 25%;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
 }
 
 /*----------------------------------------------Page Three*/
@@ -234,7 +253,7 @@ iframe {
     font-size: 85%;
     margin: 20px 0 0 0;
   }
- iframe {
+  iframe {
     height: 150px;
   }
 }
@@ -246,26 +265,26 @@ iframe {
     left: 15%;
     font-size: 65%;
   }
-  .hero-box2 {
+    .hero-box2 {
     height: 85px;
     width: 55%;
     left: 22.5%;
     font-size: 80%;
   }
- .hero-box3 {
+    .hero-box3 {
     height: 80px;
     width: 40%;
     left: 30%;
     font-size: 75%;
   }
 
-  .hero-box-styling1 {
+    .hero-box-styling1 {
     margin-top: 25px;
   }
-  .hero-box-styling2 {
+    .hero-box-styling2 {
     margin-top: 25px;
   }
-  iframe {
+    iframe {
     height: 150px;
     width: 70%;
     left: 15%;
