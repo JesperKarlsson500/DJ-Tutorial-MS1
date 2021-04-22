@@ -81,6 +81,10 @@ h2 a {
   left: 10%;
 }
 
+.hero-box-styling2:hover {
+  color: #ff4000;
+}
+
 /*----------------------------------------------Navbar*/
 header {
     width: 100%;
