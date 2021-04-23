@@ -229,11 +229,35 @@ iframe {
     height: 150px;
     width: 50%;
     left: 25%;
-    margin: 20px 0;
+    margin: 10px 10px;
     position: relative;
     text-align: center;
     border-radius: 10px;
 }
+
+  .page-two-scroll {
+    left: 40%;
+    width: 20%;
+    height: 50px;
+    position: relative;
+    background-color: rgba(65, 64, 64, 0.6);
+    border: solid 2px #ff4000;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+ .page-two-scroll a {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px black;
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .page-two-scroll a:hover {
+    color:#ff4000;
+  }
 
 /*----------------------------------------------Page Three*/
 .page-three {
@@ -305,27 +329,32 @@ iframe {
     width: 50%;
     left: 25%;
   }
+  .page-two-scroll {
+    width: 30%;
+    left: 35%;
+  }
 }
 
 @media only screen and (max-width:  576px) {
     iframe {
-      height: 150px;
-      margin: 10px 0;
+        height: 200px;
+        margin: 10px 0;
     }
     .hero-box-styling1 {
-      margin-top: 25px;
-      width: 90%;
-      left: 5%;
+        margin-top: 25px;
+        width: 90%;
+        left: 5%;
     }
     .hero-box-styling2 {
-      margin-top: 30px;
-      width: 90%;
-      left: 5%;
+        margin-top: 30px;
+        width: 90%;
+        left: 5%;
     }
     .hero-box2 {
-      font-size: 50%;
+        font-size: 50%;
     }
     .page-two-header {
+        font-size: 140%;
         width: 90%;
         left: 5%;
     }
@@ -333,10 +362,24 @@ iframe {
         width: 80%;
         left: 10%;
     }
-        .hide-trance-mix {
+    .hide-trance-mix {
         position: absolute; 
         width:0; 
         height:0; 
         border:0;
+    }
+    .page-two-scroll {
+        width: 40%;
+        left: 30%;
+    }
+    .page-two-scroll a {
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width:  480px) {
+    iframe {
+      height: 150px;
+      margin: 10px 0;
     }
 }
