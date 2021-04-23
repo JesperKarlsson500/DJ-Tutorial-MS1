@@ -62,7 +62,7 @@ h2 a {
 }
 
 .hero-box-styling1 {
-    text-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
   color:white;
   position: relative;
   margin: 0;
@@ -70,6 +70,8 @@ h2 a {
   margin-top: 13px;
   width: 90%;
   left: 5%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .hero-box-styling2 {
@@ -264,20 +266,19 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {  
-    .hero-box1 {
-    height: 90px;
+    .hero-box1 {  
     width: 70%;
     left: 15%;
     font-size: 65%;
   }
     .hero-box2 {
-    height: 85px;
+   
     width: 55%;
     left: 22.5%;
     font-size: 80%;
   }
     .hero-box3 {
-    height: 80px;
+    
     width: 40%;
     left: 30%;
     font-size: 75%;
@@ -287,6 +288,9 @@ iframe {
     margin-top: 25px;
   }
     .hero-box-styling2 {
+    margin-top: 25px;
+  }
+    .hero-box-styling3 {
     margin-top: 25px;
   }
     iframe {
@@ -302,12 +306,12 @@ iframe {
       margin: 10px 0;
     }
     .hero-box-styling1 {
-      margin-top: 15px;
+      margin-top: 25px;
       width: 90%;
       left: 5%;
     }
     .hero-box-styling2 {
-      margin-top: 22px;
+      margin-top: 30px;
       width: 90%;
       left: 5%;
     }
