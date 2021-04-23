@@ -30,3 +30,9 @@ Contact: Under construction.
 ## Code take from the internet and used in my project.
 
 Navbar taken from https://www.youtube.com/watch?v=At4B7A4GOPg
+
+## Bug report
+Navbar dropdown menu does not dropdown when I click the hamburger icon.
+Solution:
+
+

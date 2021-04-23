@@ -62,6 +62,7 @@ h2 a {
 }
 
 .hero-box-styling1 {
+    text-shadow: 1px 1px black;
   color:white;
   position: relative;
   margin: 0;
@@ -81,7 +82,11 @@ h2 a {
   left: 10%;
 }
 
-.hero-box-styling2:hover {
+.hero-box-styling3 {
+    text-shadow: 1px 1px black;
+}
+
+.hero-box-styling3 a:hover {
   color: #ff4000;
 }
 
