@@ -35,4 +35,7 @@ Navbar taken from https://www.youtube.com/watch?v=At4B7A4GOPg
 Navbar dropdown menu does not dropdown when I click the hamburger icon.
 Solution:
 
+Carousel won't work now.
+Solution:
+
 
