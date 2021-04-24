@@ -34,7 +34,7 @@ Carousel taken from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 ## Bug report
 Navbar dropdown menu does not dropdown when I click the hamburger icon.
-Solution:
+Solution: Added <script src="script.js"></script> in the body
 
 Carousel won't work now. It stopped working because I had a lot of elements 
 named by ID and when I changed it to class i forgot to change item active 
