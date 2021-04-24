@@ -195,7 +195,7 @@ left: 50px;
     width: 100%;
 }
 
-#hr-styling1 {
+.hr-styling1 {
     height: 2px;
     width: 25%;
     background-color: #ff4000;
@@ -373,7 +373,7 @@ iframe {
         left: 30%;
     }
     .page-two-scroll a {
-        font-size: 130%;
+        font-size: 100%;
     }
 }
 
