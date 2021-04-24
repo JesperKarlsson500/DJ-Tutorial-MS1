@@ -30,12 +30,15 @@ Contact: Under construction.
 ## Code take from the internet and used in my project.
 
 Navbar taken from https://www.youtube.com/watch?v=At4B7A4GOPg
+Carousel taken from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
 
 ## Bug report
 Navbar dropdown menu does not dropdown when I click the hamburger icon.
 Solution:
 
-Carousel won't work now.
-Solution:
+Carousel won't work now. It stopped working because I had a lot of elements 
+named by ID and when I changed it to class i forgot to change item active 
+to a class too.
+Solution: fixed carousel problem by changing id="item active" to class="item active
 
 
