@@ -1,13 +1,48 @@
-## DJ Tutorial
+# DJ Tutorial
 
 Project creator: Jesper Karlsson
 
 Phone: 0738468666
 E-mail: jesper.karlsson500@gmail.com
 
+# UX
+A user for my website is looking to learn the basics about DJing through my step by step totorial
+or book a private lesson with me teaching them in depth on how to DJ.
+
+* As a user I will experience a clean first page with call to action. An orange bordered button letting 
+me know that I need to scroll down if I want to know more. 
+
+* As a user I want to know where I can learn how to become a DJ. The information is given 
+to me by following the orange call to action button and scrolling down on the page.
+
+* As a user I want to learn this information in a bite sized order so it's easier to take in.
+With the step by step carousel experience it lets me take in information in a 
+easy to read enviroment and at my own pace.
+
+* As a user I want to practice what I have learned and test my skills. 
+I can do that by clicking the Challange link in the Navbar and take the test 
+and see how many points I get.
+
+* If I want to dive deeper and learn more about DJing I can navigate to the contact page and book a 
+one on one lesson with a professional DJ for a small hourly fee.
+
+# Features
+
+## Existing Features
+
+## Features Left to Implement
+
+
+# Technologies Used
+
+* Bootstrap
+    The project uses bootstrap to make the carousel work in the tutorial page.
+
 ## Description/introduction
 
-This is a dj tutorial website designed to give you a basic understanding and teaching you how to DJ. 
+This is a dj tutorial website designed to teach you how to DJ with a 
+step by step dj tutorial and  for those looking for more advanced tips 
+a chance to booking private DJ lessons.
 
 It consist of four pages:
 index/Home: introduction
@@ -22,8 +57,8 @@ Sign up to join the advanced course today.
 ## Code languages used is the making of this website: HTML, CSS and sript.js.
 
 ## Current status of development: 
-Home. Under construction.
-Tutorial: Under construction.
+Home. Page 1 and 2 almost done, page 3 under contruction
+Tutorial: Basic design done, needs styling.
 Challange: Under construction.
 Contact: Under construction.
 
