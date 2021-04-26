@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap|Oswald');
 
 * {
 box-sizing: border-box;
@@ -16,10 +15,16 @@ h2 a {
 }
 
 /*----------------------------------------------page-one*/
+
+
 .page-one {
+    background-image: url("assets/images/turntables_red_1920x1080.jpg");
     background-color: gray;
     height: 100vh;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*----------------------------------------------Hero boxes*/
@@ -108,10 +113,12 @@ header {
   
 }
 
-.brand-title {
-  text-transform: uppercase;  
-  font-size: 2.2rem;
-  margin-left: .7rem;
+.brand-title a {
+    text-transform: uppercase;  
+    font-size: 2.2rem;
+    margin-left: .7rem;
+    color: white;
+    text-decoration: none;
 }
 
 .navbar-links {
@@ -189,7 +196,7 @@ left: 50px;
 }
 
 /*----------------------------------------------Page Two*/
-#page-two {
+#page-two-scroll {
     background-color: white;
     height: 100vh;
     width: 100%;
@@ -209,6 +216,7 @@ left: 50px;
 }
 
 .page-two-header {
+    margin-top: 50px;
     width: 50%;
     left: 25%;
     text-align: center;
@@ -247,23 +255,23 @@ iframe {
     width: 20%;
     height: 50px;
     position: relative;
-    background-color: white;
+    background-color: #404040;
     border: solid 2px #ff4000;
     border-radius: 10px;
     text-align: center;
     }
 
  .page-two-scroll a {
+     text-shadow: 1px 1px black;
     bottom: 15px;
     display: inline-block;
-    font-size: 2rem;
-    color: #ff4000;
+    font-size: 1.5rem;
+    color: white;
     text-decoration: none;
   }
 
   .page-two-scroll a:hover {
-    
-    color:black;
+    color:#ff4000;
   }
 
 /*----------------------------------------------Page Three*/
@@ -339,6 +347,7 @@ iframe {
   .page-two-scroll {
     width: 30%;
     left: 35%;
+    font-size: 1rem;
   }
 }
 
@@ -368,6 +377,7 @@ iframe {
     .page-two-font-style1 {
         width: 80%;
         left: 10%;
+        font-size: 0.9rem;
     }
     .hide-trance-mix {
         position: absolute; 
@@ -380,7 +390,8 @@ iframe {
         left: 30%;
     }
     .page-two-scroll a {
-        font-size: 100%;
+        margin-top: 8px;
+        font-size: 16px;
     }
 }
 
@@ -404,7 +415,7 @@ iframe {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
