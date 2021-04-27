@@ -15,17 +15,13 @@ h2 a {
 }
 
 /*----------------------------------------------page-one*/
-
-
 .page-one {
-    background-image: url("assets/images/turntables_red_1920x1080.jpg");
-    background-color: gray;
     height: 100vh;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: gray;
+    background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
 }
+
 
 /*----------------------------------------------Hero boxes*/
 .hero-box1 {
