@@ -1,6 +1,8 @@
 
 * {
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,6 +24,12 @@ h2 a {
     background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
 }
 
+.bg-image1 {
+    background-size: 50px 50px;
+    background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
+    
+}
+
 
 /*----------------------------------------------Hero boxes*/
 .hero-box1 {
@@ -38,6 +46,7 @@ h2 a {
 
 .hero-box2 {
   background-color: rgba(0, 0, 0, 0.5);
+  
   width: 30%;
   left: 35%;
   height: 100px;
@@ -204,14 +213,22 @@ left: 50px;
 }
 
 .hr-styling1 {
+    left: 37.5%;
     height: 2px;
     width: 25%;
+    left: 50px;
+    background-color: #ff4000;
+    border: none;
+}
+
+.hr-styling2 {
+    height: 2px;
+    width: 100%;
     background-color: #ff4000;
     border: none;
 }
 
 .page-2n3-header-style {
-    margin-top: 50px;
     width: 50%;
     left: 25%;
     text-align: center;
@@ -280,6 +297,8 @@ iframe {
 }
 
 .color-white {
+    margin: 0;
+    padding: 0;
     color: white;
 }
 
