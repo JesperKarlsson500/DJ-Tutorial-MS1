@@ -397,13 +397,28 @@ iframe {
         left: 5%;
     }
     .hero-box-styling2 {
-        margin-top: 30px;
+        margin-top: 27px;
         width: 90%;
         left: 5%;
     }
+
+    .hero-box-styling3 {
+        margin-top: 20px;
+    }
+
+    .hero-box1 {
+        height: 100px;
+    }
+
     .hero-box2 {
         font-size: 50%;
+        height: 90px;
     }
+
+    .hero-box3 {
+        height: 80px;
+    }
+
     .page-2n3-header-style {
         font-size: 140%;
         width: 90%;
