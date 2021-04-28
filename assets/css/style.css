@@ -17,19 +17,14 @@ h2 a {
 }
 
 /*----------------------------------------------page-one*/
+
 .page-one {
     height: 100vh;
     width: 100%;
     background-color: gray;
     background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
-}
-
-.bg-image1 {
     background-size: 50px 50px;
-    background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
-    
 }
-
 
 /*----------------------------------------------Hero boxes*/
 .hero-box1 {
@@ -469,4 +464,10 @@ iframe {
       height: 150px;
       margin: 10px 0;
     }
+}
+
+.img-lol {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
 }
