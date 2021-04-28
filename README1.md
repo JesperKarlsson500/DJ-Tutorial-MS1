@@ -80,4 +80,13 @@ to a class too.
 ### class="hide-trance-mix" did not hide the iframe
 Solution: Put the closing div after the iframe
 
+# Project changes during time
+28-04-2021: Renamed and reworked challenge and contact to playground and sign up.
+
+Reasoning: Playground and Sign up sounds more appealing and intuative, It's a better call to action. 
+Designed so now Playground will hold my two mixes to listen two instead of the front page 
+(improving load times and performance, tested in lighthouse) and some questions to test if the 
+user has learned whats in the tutorial.
+
+
 
