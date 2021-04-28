@@ -22,8 +22,13 @@ h2 a {
     height: 100vh;
     width: 100%;
     background-color: gray;
-    background-image: url('/assets/images/turntables_red_1920x1080.jpg') center center / cover no-repeat fixed;
-    background-size: 50px 50px;
+}
+
+.hero-image1 {
+    float: right;
+    min-width: 100%;
+    height: 100%;
+    background-size: contain;
 }
 
 /*----------------------------------------------Hero boxes*/
@@ -69,7 +74,7 @@ h2 a {
 .hero-box-styling1 {
   text-shadow: 1px 1px black;
   color:white;
-  position: relative;
+  position: absolute;
   margin: 0;
   font-size: 300%;
   margin-top: 13px;
@@ -82,7 +87,7 @@ h2 a {
 .hero-box-styling2 {
   text-shadow: 1px 1px black;
   color: white;
-  position: relative;
+  position: absolute;
   font-size: 190%;
   margin-top: 20px;
   width: 80%;
@@ -91,6 +96,9 @@ h2 a {
 
 .hero-box-styling3 {
     text-shadow: 1px 1px black;
+    position: absolute;
+    width: 80%;
+    left: 10%;
 }
 
 .hero-box-styling3 a:hover {
@@ -196,7 +204,7 @@ left: 50px;
 
 /*----------------------------------------------Page Two*/
 #page-two-scroll {
-    background-color: white;
+    background-color: rgb(172, 172, 172);
     height: 100vh;
     width: 100%;
 }
@@ -282,8 +290,20 @@ iframe {
   }
 
 /*----------------------------------------------Page Three*/
+.hero-img2div {
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-image2 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-width: 100%;
+    height: 100vh
+}
+
 .page-three {
-    background-image: url('assets/images/turntables_red_1920x1080.jpg');
     background-color: gray;
     height: 100vh;
     width: 100%;
@@ -299,6 +319,7 @@ iframe {
 
 /*----------------------------------------------Glow effect */
 .call-to-action {
+    text-align: center;
     height: 100vh;
     position: relative;
 }
