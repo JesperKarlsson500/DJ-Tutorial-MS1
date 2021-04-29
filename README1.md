@@ -80,6 +80,9 @@ to a class too.
 ### class="hide-trance-mix" did not hide the iframe
 Solution: Put the closing div after the iframe
 
+### Chrome devtools problem that img was outside of viewport
+Solution: set 100% width instead of 100vw
+
 # Project changes during time
 28-04-2021: Renamed and reworked challenge and contact to playground and sign up.
 
