@@ -4,16 +4,6 @@
     padding: 0;
 }
 
-:root {
-    --white: #fff;
-    --red-orange: #ff4000;
-    --rich-black: #161925;
-    --prussian-blue: #23395B;
-    --queen-blue: #406E8E;
-    --cadet-gray: #8EA8C3;
-    --light-cyan: #CBF7ED;
-}
-
 body {
   font-family: Oswald;
   margin: 0;
@@ -25,12 +15,43 @@ h2 a {
   text-decoration: none;
 }
 
+:root {
+    --white: #fff;
+    --red-orange: #ff4000;
+    --rich-black: #161925;
+    --rich-blue: #0d0535;
+    --dark-rich-blue: #080322;
+    --prussian-blue: #23395B;
+    --queen-blue: #406E8E;
+    --cadet-gray: #8EA8C3;
+    --light-cyan: #CBF7ED;
+}
+
+.color-white {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px black;
+}
+
+.letter-spacing {
+    letter-spacing: 1px;
+}
+
 /*----------------------------------------------Images*/
 
 .hero-image {
+    object-fit: cover;
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+}
+
+.fixed {
+    position: fixed;
 }
 
 /*----------------------------------------------page-one*/
@@ -38,7 +59,7 @@ h2 a {
 .page-one {
     height: 100vh;
     width: 100%;
-    background-color: var(--prussian-blue);
+    background-color: var(--dark-rich-blue);
 }
 
 
@@ -91,7 +112,7 @@ h2 a {
   width: 90%;
   left: 5%;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .hero-box-styling2 {
@@ -113,7 +134,7 @@ h2 a {
 }
 
 .hero-box-styling3 a:hover {
-  color: #ff4000;
+  color: var(--red-orange);
 }
 
 /*----------------------------------------------Navbar*/
@@ -163,7 +184,7 @@ left: 50px;
 }
 
 .navbar-links li:hover {
-  color: #ff4000;
+  color: var(--red-orange);
 }
 
 .toggle-button {
@@ -185,44 +206,45 @@ left: 50px;
 }
 
 /*----------------------------------------------Section Two*/
-#section-two {
+.section-two {
     position: relative;
-    background-color: var(--light-cyan);
-    height: 100vh;
+    background-color: var(--dark-rich-blue);
+    height: 70vh;
     width: 100%;
 }
-.page-two-container {
-    position: relative;
-    top: 7.5%;
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /*position: relative;*/
     width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 100%;
 }
 
-.hr-styling1 {
+.hr-small {
     position: relative;
     left: 40%;
     width: 20%;
     height: 2px;
-    background-color: #ff4000;
+    background-color: var(--red-orange);
     border: none;
-    margin: 3% 0;
 }
 
-.hr-styling2 {
+.hr-big {
     height: 2px;
     width: 100%;
-    background-color: #ff4000;
+    background-color: var(--red-orange);
     border: none;
 }
 
-.page-2n3-header-style {
+.section-header{
     width: 50%;
     left: 25%;
     text-align: center;
     position: relative;
     font-size: 2rem;
     text-transform: uppercase;
+    color: var(--light-cyan);
 }
 
 .page-2n3-font-style {
@@ -248,63 +270,32 @@ iframe {
     border-radius: 10px;
 }
 
-  .scroll-to-page-three {
-    margin-top: 5%;
-    left: 40%;
-    width: 20%;
-    height: 50px;
-    position: relative;
-    background-color: #23395B;
-    border: solid 2px #ff4000;
-    border-radius: 10px;
-    text-align: center;
-    }
-
- .scroll-to-page-three a {
-     text-shadow: 1px 1px black;
-    bottom: 15px;
-    display: inline-block;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-  }
-
-  .scroll-to-page-three a:hover {
-    color:#ff4000;
-  }
-
 /*----------------------------------------------Section Three*/
-.page-three {
-    background-color: gray;
-    height: 100vh;
+.section-three {
+    background-color: var(--dark-rich-blue);
     width: 100%;
-    margin: 0;
-    padding: 0;
-}
+    height: 70vh;
 
-.color-white {
-    margin: 0;
-    padding: 0;
-    color: white;
 }
 
 /*----------------------------------------------Glow effect */
 .call-to-action {
     text-align: center;
-    height: 100vh;
+    top: 10vh;
+    height: 80vh;
     position: relative;
 }
     
-.call-to-action a {
+/*.call-to-action a {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%) }*/
 
 .glow a {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px black, 0 0 20px white, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
     font-size: 4rem;
     color: #fff;
 }
