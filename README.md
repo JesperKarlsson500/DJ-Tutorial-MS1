@@ -1,45 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DJ Tutorial
 
-Welcome JesperKarlsson500,
+Project creator: Jesper Karlsson
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Phone: 0738468666
+E-mail: jesper.karlsson500@gmail.com
 
-## Gitpod Reminders
+# UX
+A user for my website is looking to learn the basics about DJing through my step by step totorial
+or book a private lesson with me teaching them in depth on how to DJ.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* As a user I will experience a clean first page with call to action. An orange bordered button letting 
+me know that I need to scroll down if I want to know more. 
 
-`python3 -m http.server`
+* As a user I want to know where I can learn how to become a DJ. The information is given 
+to me by following the orange call to action button and scrolling down on the page.
 
-A blue button should appear to click: *Make Public*,
+* As a user I want to learn this information in a bite sized order so it's easier to take in.
+With the step by step carousel experience it lets me take in information in a 
+easy to read enviroment and at my own pace.
 
-Another blue button should appear to click: *Open Browser*.
+* As a user I want to practice what I have learned and test my skills. 
+I can do that by clicking the Challange link in the Navbar and take the test 
+and see how many points I get.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* If I want to dive deeper and learn more about DJing I can navigate to the contact page and book a 
+one on one lesson with a professional DJ for a small hourly fee.
 
-A blue button should appear to click: *Make Public*,
+# Features
 
-Another blue button should appear to click: *Open Browser*.
+## Existing Features
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features Left to Implement
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Technologies Used
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Bootstrap
+    The project uses bootstrap to make the carousel work in the tutorial page.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Description/introduction
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This is a dj tutorial website designed to teach you how to DJ with a 
+step by step dj tutorial and  for those looking for more advanced tips 
+a chance to booking private DJ lessons.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+It consist of four pages:
+index/Home: introduction
+Tutorial: Step by step DJ tutorial
+Challange: Test your skills and prove that you can DJ
+Contact: Sign up with Name, Lastname, Email and write a comment.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+DJ tutorial is a website designed to teach everyone the basics on how to DJ. 
+With an step by step tutorial and a challange that will test your skills we make sure you know what to do.
+Sign up to join the advanced course today.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Code languages used is the making of this website: HTML, CSS and sript.js.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Current status of development: 
+Home. Page 1 and 2 almost done, page 3 under contruction
+Tutorial: Basic design done, needs styling.
+Challange: Under construction.
+Contact: Under construction.
 
---------
+## Code take from the internet and used in my project.
 
-Happy coding!
+Navbar taken from https://www.youtube.com/watch?v=At4B7A4GOPg
+Carousel taken from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+
+## Bug report
+### Navbar dropdown menu does not dropdown when I click the hamburger icon.
+Solution: Added <script src="script.js"></script> in the body
+
+### Carousel doesn't work. 
+Solution: fixed carousel problem by changing id="item active" to class="item active
+It stopped working because I had a lot of elements 
+named by ID and when I changed it to class i forgot to change item active 
+to a class too.
+
+### class="hide-trance-mix" did not hide the iframe
+Solution: Put the closing div after the iframe
+
+### Chrome devtools problem that img was outside of viewport
+Solution: set 100% width instead of 100vw
+
+# Project changes during time
+28-04-2021: Renamed and reworked challenge and contact to playground and sign up.
+
+Reasoning: Playground and Sign up sounds more appealing and intuative, It's a better call to action. 
+Designed so now Playground will hold my two mixes to listen two instead of the front page 
+(improving load times and performance, tested in lighthouse) and some questions to test if the 
+user has learned whats in the tutorial.
+
+
+
