@@ -11,6 +11,7 @@
     --prussian-blue: #23395B;
     --queen-blue: #406E8E;
     --cadet-gray: #8EA8C3;
+    --light-cyan: #CBF7ED;
 }
 
 body {
@@ -184,9 +185,9 @@ left: 50px;
 }
 
 /*----------------------------------------------Section Two*/
-#page-two-scroll {
+#section-two {
     position: relative;
-    background-color: #161925;
+    background-color: var(--light-cyan);
     height: 100vh;
     width: 100%;
 }
