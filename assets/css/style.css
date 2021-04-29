@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+:root {
+    --white: #fff;
+    --red-orange: #ff4000;
+    --rich-black: #161925;
+    --prussian-blue: #23395B;
+    --queen-blue: #406E8E;
+    --cadet-gray: #8EA8C3;
+}
+
 body {
   font-family: Oswald;
   margin: 0;
@@ -11,7 +20,7 @@ body {
 }
 
 h2 a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -28,7 +37,7 @@ h2 a {
 .page-one {
     height: 100vh;
     width: 100%;
-    background-color: gray;
+    background-color: var(--prussian-blue);
 }
 
 
