@@ -18,6 +18,8 @@ h2 a {
 :root {
     --white: #fff;
     --red-orange: #ff4000;
+    --dark-purple: #0a030c;
+
     --rich-black: #161925;
     --rich-blue: #0d0535;
     --dark-rich-blue: #080322;
@@ -59,12 +61,12 @@ h2 a {
 .page-one {
     height: 100vh;
     width: 100%;
-    background-color: var(--dark-rich-blue);
+    background-color: var(--dark-purple);
 }
 
 
 /*----------------------------------------------Hero boxes*/
-.big-box {
+/*.big-box {
   background-color: rgba(0, 0, 0, 0.5);
   width: 40%;
   left: 30%;
@@ -73,7 +75,6 @@ h2 a {
   position: relative;
   text-align: center;
   border-radius: 10px;
-  border: solid 2px white;
 }
 
 .medium-box {
@@ -86,7 +87,40 @@ h2 a {
   position: relative;
   text-align: center;
   border-radius: 10px;
-  border: solid 2px white;
+}*/
+
+.big-box1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 20%;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.medium-box1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 20%;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-box1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .small-box {
@@ -99,7 +133,7 @@ h2 a {
   position: relative;
   text-align: center;
   border-radius: 10px;
-  border: solid 2px var(--prussian-blue);
+  border: solid 2px var(--red-orange);
 }
 
 .hero-box-styling1 {
@@ -134,7 +168,7 @@ h2 a {
 }
 
 .hero-box-styling3 a:hover {
-  color: #bf3e84; /*var(--red-orange);*/
+  color: var(--red-orange);
 }
 
 /*----------------------------------------------Navbar*/
@@ -208,7 +242,7 @@ left: 50px;
 /*----------------------------------------------Section Two*/
 .section-two {
     position: relative;
-    background-color: #0a030c; /*var(--rich-black);*/
+    background-color: var(--dark-purple);
     height: 70vh;
     width: 100%;
 }
