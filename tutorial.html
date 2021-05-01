@@ -13,148 +13,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-    <style>
-    
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .container {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        object-fit: cover;
-    }
-
-    #myCarousel {
-        height: 100vh;
-      
-    }
-
-    .right carousel-control {
-        width: 30px;
-    }
-
-    .cover-text {
-        text-align: center;
-    }
-
-    .container-inner {
-        height: 100vh;
-        position: relative;
-    }
-    
-    .center-center {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-    }
-
-    .tutorial-tilte-style {
-        margin: 0;
-        padding: 0;
-        text-transform: uppercase;
-    }
-
-    .text-inner {
-        color: white;
-        font-size: 2.1rem;
-        background-color: rgba(31, 31, 31, 0.95);
-        top: 50px;
-        width: 60%;
-        margin: 1rem 0;
-        display: inline-block;
-        padding: 20px 20px;
-        border: solid 2px #ff4000;
-        border-radius: 10px;
-    }
-    
-    .imgthicker {
-        margin-top: 1vh;
-        height: 60vh;
-        width: 70vw;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    #tutorial-home {
-        left: 40%;
-        width: 20%;
-        height: 50px;
-        position: fixed;
-        bottom: 5px;
-        display: inline-block;
-        background-color: rgba(65, 64, 64, 0.6);
-        border: solid 2px white;
-        border-radius: 10px;
-        text-align: center;
-    }
-
-    #tutorial-home a {
-        display: inline-block;
-        font-size: 2rem;
-        border-radius: 10px;
-        margin-top: 6px;
-        color: white;
-        text-decoration: none;
-    }
-
-    #tutorial-home a:hover {
-        color:#ff4000;
-    }
-
-    .carousel-indicators {
-        bottom: 50px;
-    }
-
-    @media only screen and (max-width: 768px) {
-    .text-inner {
-      font-size: 1.9rem;
-      width: 75%;
-      }
-    }
-   
-    @media only screen and (max-width: 600px) {
-      .text-inner {
-        width: 80%;
-        font-size: 1.8rem;
-      }
-      img {
-        height: 70vh;
-        width: 70vw;
-      }
-       #tutorial-home {
-        left: 30%;
-        width: 35%;
-      }
-    }
-
-
-  @media only screen and (max-width: 480px) {
-    .text-inner {
-        width: 90%;
-        font-size: 1.7rem;
-      }
-      #tutorial-home {
-        left: 25%;
-        width: 50%;
-      }
-    }
-  </style>
 </head>
 <body>
-    <!-------------------Page One-->  
+<!-------------------Page One-->  
     <div class="page-one">
 <!-------------------Navbar-->
         <header>
@@ -168,36 +29,33 @@
                     <div class="navbar-links">
                         <ul>
                             <li><a href="index.html" aria-label="To the home page">Home</a></li>
-                            
                             <li><a href="tutorial.html" aria-label="Step by step DJ tutorial">Tutorial</a></li>
-                            
                             <li><a href="playground.html" aria-label="Listen to my mixes and test what you have learned">Playground</a></li>
-
                             <li><a href="sign-up.html" aria-label="Sign up for a one on one DJ lession">Sign up</a></li>
                         </ul>
                     </div>
             </nav>
         </header>
     <!-- Caraousel -->
-        <div class="container"> 
+        <div class="carousel-container"> 
     <div id="myCarousel" class="carousel slide" data-interval="false">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="4"></li>
-        <li data-target="#myCarousel" data-slide-to="5"></li>
-        <li data-target="#myCarousel" data-slide-to="6"></li>
-        <li data-target="#myCarousel" data-slide-to="7"></li>
-        <li data-target="#myCarousel" data-slide-to="8"></li>
-        <li data-target="#myCarousel" data-slide-to="9"></li>
-        <li data-target="#myCarousel" data-slide-to="10"></li>
-        <li data-target="#myCarousel" data-slide-to="11"></li>
-        <li data-target="#myCarousel" data-slide-to="12"></li>
-        <li data-target="#myCarousel" data-slide-to="13"></li>
-        <li data-target="#myCarousel" data-slide-to="14"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+            <li data-target="#myCarousel" data-slide-to="10"></li>
+            <li data-target="#myCarousel" data-slide-to="11"></li>
+            <li data-target="#myCarousel" data-slide-to="12"></li>
+            <li data-target="#myCarousel" data-slide-to="13"></li>
+            <li data-target="#myCarousel" data-slide-to="14"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -423,15 +281,14 @@
             </div>
         </div>
         <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-        </a>
-        <div id="tutorial-home"><a href="index.html" aria-label="To the home page">Home page</a></div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+            </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                </a>
         </div>
     </div>
     <script src="script.js"></script>
