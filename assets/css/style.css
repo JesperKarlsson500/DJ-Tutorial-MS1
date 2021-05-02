@@ -10,11 +10,6 @@ body {
   padding: 0;
 }
 
-h2 a {
-  color: var(--white);
-  text-decoration: none;
-}
-
 :root {
     --white: #fff;
     --red-orange: #ff4000;
@@ -41,6 +36,23 @@ h2 a {
 .letter-spacing {
     letter-spacing: 1px;
 }
+
+h2 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.playground {
+  color: var(--red-orange);
+  text-decoration: none;
+}
+
+.playground:hover {
+    color: var(--red-orange);
+    
+}
+
+
 
 /*----------------------------------------------Images*/
 .hero-image {
@@ -74,7 +86,6 @@ h2 a {
     font-size: 1.5em;
     text-align: center;
     position: relative;
-
 }
 
 .container .subheader {
