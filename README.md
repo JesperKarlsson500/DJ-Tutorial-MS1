@@ -144,12 +144,12 @@ This project was build using the following technologies:
 
 * HTML5
 * CSS3
-* Bootstrap
+* Bootstrap: Carousel
 * Google Chrome DevTools: Helped me iterate, debug and profile my site.
 * Lighthouse: Helped me improve the websites performance on both desktop and mobile.
 
 ## Testing
-I expect my users to use desktop and mobile, so I had that in mind when I created my responsive design.
+I see my users using both desktop and mobile, so I had that in mind when I created my responsive design.
 
 ### Testing plan 
 
