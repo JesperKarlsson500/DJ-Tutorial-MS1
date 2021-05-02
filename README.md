@@ -48,23 +48,6 @@ together can signup for a private lession with a professional DJ.
 A user for my website is looking to learn the basics about DJing, through my free step by step totorial.
 A user for can also book a private session were they learn the skills to become a professional DJ.
 
-* As a user I will experience a clean first page with call to action. An orange bordered button letting 
-me know that I need to scroll down if I want to know more. 
-
-* As a user I want to know where I can learn how to become a DJ. The information is given 
-to me by following the orange call to action button and scrolling down on the page.
-
-* As a user I want to learn this information in a bite sized order so it's easier to take in.
-With the step by step carousel experience it lets me take in information in a 
-easy to read enviroment and at my own pace.
-
-* As a user I want to practice what I have learned and test my skills. 
-I can do that by clicking the Challange link in the Navbar and take the test 
-and see how many points I get.
-
-* If I want to dive deeper and learn more about DJing I can navigate to the contact page and book a 
-one on one lesson with a professional DJ for a small hourly fee.
-
 ## Strategy
 
 #### User Needs
@@ -106,9 +89,28 @@ This is were the user comes to listen to the end results of what a DJ can do. At
 signup for a private lesson.
 
 #### Signup
-By signingup the user will be contated through email for more information on their private DJ sessions.
+By signingup the user will be contated through email to book a private DJ sessions.
 
-#### Original ideas
+## Wireframes
+
+* My first Wireframes
+![Wireframe](assets/images/wireframes/Wireframe-first-edition-one.jpg)
+![Wireframe](assets/images/wireframes/Wireframe-first-edition-two.jpg)
+![Wireframe](assets/images/wireframes/Wireframe-first-edition-three.jpg)
+
+* My second Wireframes
+![Wireframe](assets/images/wireframes/Wireframe-second-edition-one.jpg)
+![Wireframe](assets/images/wireframes/Wireframe-second-edition-two.jpg)
+![Wireframe](assets/images/wireframes/Wireframe-second-edition-three.jpg)
+
+### Changes to wireframes
+I had a hard time keeping to my wireframes, since my skills and the vision for the project 
+grew while I was working on it. The second wireframes are the closest to the final build. 
+I felt I had no time to make new wireframes, so I used the second wireframes and build on that.
+I don't recommend this because I had a lot of trail and error. I think this accually took 
+more time then making new wireframes.
+
+## Original ideas
 * The project had three pages full of text and pictures. Mentor Antonija helped me see that 
 less is more. She adviced me to create sections on the first page and give the elements some room.
 
@@ -122,25 +124,9 @@ inspirational text and the scroll down text. It would all create the shape of an
 pointing down. The idea was interesting but when i executed it, it dident turn out so good.
 It gave a bad impression of the page and I oppted to go with less is more.
 
-## Wireframes
-I have two stages of Wireframes
-
-* First Wireframes
-![Wireframe](assets/images/wireframes/Wireframe-first-edition-one.jpg)
-![Wireframe](assets/images/wireframes/Wireframe-first-edition-two.jpg)
-![Wireframe](assets/images/wireframes/Wireframe-first-edition-three.jpg)
-
-* Second Wireframes
-![Wireframe](assets/images/wireframes/Wireframe-second-edition-one.jpg)
-![Wireframe](assets/images/wireframes/Wireframe-second-edition-two.jpg)
-![Wireframe](assets/images/wireframes/Wireframe-second-edition-three.jpg)
-
-### Changes to wireframes
-I had a hard time keeping to my wireframes, since my skills and the vision for the project 
-grew while I was working on it. The second wireframes are the closest to the final build. 
-I felt I had no time to make new wireframes, so I used the second wireframes and build on that.
-I don't recommend this because I had a lot of trail and error. I think this accually took 
-more time then making new wireframes.
+* Renamed and reworked challenge.html and contact.html to playground.html and signup.html.
+Reasoning: Playground and Signup sounds more appealing and intuative, It's a better call to action. 
+Moved my two soundcloud link to Playground from Home page to improve load times and performance.
 
 ## Features
 * Responsive Navbar menu collapsing into a hamburger dropdown menu on tablets and phones.
@@ -163,6 +149,7 @@ This project was build using the following technologies:
 * Lighthouse: Helped me improve the websites performance on both desktop and mobile.
 
 ## Testing
+I expect my users to use desktop and mobile, so I had that in mind when I created my responsive design.
 
 ### Testing plan 
 
@@ -171,6 +158,15 @@ This project was build using the following technologies:
 ## Results
 
 ## Bugs
+
+#### Navbar dropdown menu did not work when I click the hamburger icon.
+Solution: Added <script src="script.js"></script> in the body
+
+#### class="hide-trance-mix" did not hide the iframe
+Solution: Put the closing div after the iframe
+
+#### Chrome devtools problem that img was outside of viewport
+Solution: width: 100%; instead of width: 100vw;
 
 ## Deployment
 
