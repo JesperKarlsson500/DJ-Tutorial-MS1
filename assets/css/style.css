@@ -45,14 +45,14 @@ h2 a {
 .playground {
   color: var(--red-orange);
   text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .playground:hover {
     color: var(--red-orange);
     
 }
-
-
 
 /*----------------------------------------------Images*/
 .hero-image {
@@ -327,9 +327,7 @@ header {
 
     .text-inner {
         color: white;
-        font-size: 2em;
         background-color: rgba(31, 31, 31, 0.95);
-        top: 50px;
         width: 60%;
         margin: 1em 0;
         display: inline-block;
@@ -351,6 +349,31 @@ header {
 
     .carousel-indicators {
         bottom: 50px;
+    }
+
+    .text-inner h2 {
+        font-size: 2em;
+    }
+
+    .text-inner h3 {
+        font-size: 1.5em;
+    }
+
+    .intro {
+        width: 463px;
+        height: 379px;
+    }
+    .buildup {
+        width: 314px;
+        height: 379px;
+    }
+    .climax {
+        width: 287px;
+        height: 379px;
+    }
+    .outro {
+        width: 463px;
+        height: 379px;
     }
 
 /*----------------------------------------------Signup*/    
@@ -398,7 +421,6 @@ header {
         height: 200px;
     }
     .text-inner {
-        font-size: 1.9em;
         width: 75%;
     }
 }
@@ -449,13 +471,17 @@ header {
     }
     .text-inner {
         width: 80%;
-        font-size: 1.8em;
+    }
+    .text-inner h2 {
+        font-size: 1.2em;
+    }
+    .text-inner h3 {
+        font-size: 1em;
     }
 }
 
 @media only screen and (max-width:  480px) {
     .text-inner {
         width: 80%;
-        font-size: 1.7em;
       }
 }
