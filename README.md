@@ -145,7 +145,10 @@ Reasoning: Playground and Signup sounds more appealing and intuative, It's a bet
 * Signup form to get in contact with a professional DJ.
 
 ### Future Features
-* Create a multiple choice challenge for the user so they can test their skills learned.
+* Create a multiple choice challenge for the user so they can test their skills.
+* Add more responsive design to improve user experience.
+* Make the code more pretty.
+* Remove magic numbers in code.
 
 ## Technologies
 <hr>
@@ -184,8 +187,6 @@ I was using to many hyphens so I removed the excess ones.
 
 * Markup Validator error: Can't put horizontal rule as a child element of any header element. 
 So I move the horizontal rule outside of any header element.
-
-
 
 ## Results
 <hr>
