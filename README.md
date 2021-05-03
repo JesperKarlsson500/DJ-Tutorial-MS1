@@ -172,16 +172,20 @@ I was using to many hyphens so I removed the excess ones.
 * Markup Validator error: Can't put horizontal rule as a child element of any header element. 
 So I move the horizontal rule outside of any header element.
 
-### Testing plan 
+### Testing plan
 
-I want to have a site that that works both on mobile and on desktop. Most professional DJ's 
-use their laptop asa workstation, but DJ apps on mobile is getting more and more popular every day. 
-So I had that in mind when I tested out my website in devtools. I tested on desktop, Ipad, and phones.
-Especially on Iphone 5/SE because I learned that it has a unique resolution causing problems in apps.
-
+My goal is to create a site that that works on both desktop and mobile. researching the field I 
+found that most professional DJ's use their laptop as a workstation, but being on the road 
+they use their phones a lot, also DJ apps are getting more and more popular every day. 
+So I had that in mind when I created and tested out my website in devtools. 
+I tested on Desktop, Ipad, and Phones. Especially on Iphone 5/SE because it has a unique 
+resolution that can cause overflow problems.
 
 ### Implementation
-My testing was done through Chrome DevTools 
+My testing was done with Chrome DevTools, Checking through different resolutions and devices.
+
+I used Lighthouse to check the performance on both mobile and desktop and search for errors.
+
 
 ## Results
 <hr>
@@ -189,8 +193,10 @@ My testing was done through Chrome DevTools
 
 ## Bugs
 <hr>
-My images show up when I open up python3 -m http.server but not when I open my project as a website through github pages.
 
+I had a problem were my images showed up when I open them in the python3 -m http.server, but not when I open 
+my project as a stand alone website. Images dident work because I had a forward slash before my 
+assets and then the website searches in the root instead of relative path, which is DJ-Turorial-MS1.
 
 
 

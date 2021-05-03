@@ -48,7 +48,6 @@ h2 a {
 
 /*----------------------------------------------Images*/
 .hero-image-red {
-    background-image: url("/assets/images/turntables_red_1920x1080.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     position: fixed;
@@ -57,7 +56,6 @@ h2 a {
 }
 
 .hero-image-blue {
-    background-image: url("/assets/images/turntables_blue_1920x1080.jpg");
     background-repeat: no-repeat;
     object-fit: cover;
     position: absolute;
