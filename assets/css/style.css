@@ -52,11 +52,12 @@ h2 a {
 
 /*----------------------------------------------Images*/
 .hero-image {
+    background-image: url("/assets/images/turntables_red_1920x1080.jpg");
+    background-repeat: no-repeat;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
-    z-index: 1;
 }
 .fixed {
     height: 100vh;
@@ -347,6 +348,9 @@ header {
         width: 463px;
         height: 379px;
     }
+    .playground {
+        font-size: 2em;
+    }
 
 /*----------------------------------------------Playground*/
 
@@ -514,6 +518,9 @@ img[src*="#thumbnail"] {
     }
     .text-inner h3 {
         font-size: 1em;
+    }
+    .playground {
+        font-size: 1.4em;
     }
 }
 
