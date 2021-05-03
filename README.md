@@ -6,30 +6,35 @@ With a step by step structured website designed to make it easy to learn and fol
 ## Showcase
 ![Showcase-screenshot](assets/images/wireframes/home-page.png)
 
+A deployed version of my website can be found [here.](https://jesperkarlsson500.github.io/DJ-Tutorial-MS1/index.html)
+
 ## Navigation
 
-* UX
-* Strategy
-* Scope
-* Structure
-* Wireframes
-    + Changes to wireframes
-* Features
-    + Existing Features
-    + Future Features
-* Technologies
-* Testing
-    + Testing plan 
-    + Implementation
-* Results
-* Bugs
-* Deployment
-* Credit
-* Content
-* Media
-* Acknowledgements
+* [UX](#ux)
+* [Strategy](#strategy)
+    + [User-needs](#user-needs)
+    + [Business-vision](#business-vision)
+* [Scope](#scope)
+* [Structure](#structure)
+* [Wireframes](#wireframes)
+  + [Changes](#changes-to-wireframes)
+* [Features](#features)
+    + [Existing-features](#existing-features)
+    + [Future-features](#futere-features)
+* [Technologies](#technologies)
+* [Testing](#testing)
++ [Testing-plan](#testing-plan)
+  + [Implementation](#implementation)
+  + [Results](#results)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Content](#content)
+* [Media](#media)
+* [Acknowledgements](#acknowledgements)
 
 ## UX
+<hr>
 The purpose of this website is to create a journey for people that aspire to be a DJ. 
 starting with an introduction that will end in a call to action to join the free step by step tutorial.
 Users will be able to enjoy the playground were they can listen to my finished mixes.
@@ -49,6 +54,7 @@ A user for my website is looking to learn the basics about DJing, through my fre
 A user for can also book a private session were they learn the skills to become a professional DJ.
 
 ## Strategy
+<hr>
 
 #### User Needs
 As a user the site needs to work on desktop, tablet and mobile. 
@@ -92,6 +98,7 @@ signup for a private lesson.
 By signingup the user will be contated through email to book a private DJ sessions.
 
 ## Wireframes
+<hr>
 
 * My first Wireframes
 ![Wireframe](assets/images/wireframes/Wireframe-first-edition-one.jpg)
@@ -165,17 +172,26 @@ I was using to many hyphens so I removed the excess ones.
 * Markup Validator error: Can't put horizontal rule as a child element of any header element. 
 So I move the horizontal rule outside of any header element.
 
-
 ### Testing plan 
 
-### Implementation
+I want to have a site that that works both on mobile and on desktop. Most professional DJ's 
+use their laptop asa workstation, but DJ apps on mobile is getting more and more popular every day. 
+So I had that in mind when I tested out my website in devtools. I tested on desktop, Ipad, and phones.
+Especially on Iphone 5/SE because I learned that it has a unique resolution causing problems in apps.
 
+### Implementation
+My testing was done through Chrome DevTools 
 
 ## Results
 <hr>
 
+
 ## Bugs
 <hr>
+My images show up when I open up python3 -m http.server but not when I open my project as a website through github pages.
+
+
+
 
 #### Navbar dropdown menu did not work when I click the hamburger icon.
 Solution: Added <script src="script.js"></script> in the body
@@ -187,16 +203,19 @@ Solution: Put the closing div after the iframe
 Solution: width: 100%; instead of width: 100vw;
 
 ## Deployment
+<hr>
 
 ## Credit
+<hr>
 
 ## Content
+<hr>
 
 ## Media
+<hr>
 
 ## Acknowledgements
-
-
+<hr> I want to thank my mentor Antonija for helping me and supporting me during this project.
 
 ### Existing Features
 
