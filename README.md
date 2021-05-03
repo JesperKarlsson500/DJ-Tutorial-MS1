@@ -179,6 +179,7 @@ use their laptop asa workstation, but DJ apps on mobile is getting more and more
 So I had that in mind when I tested out my website in devtools. I tested on desktop, Ipad, and phones.
 Especially on Iphone 5/SE because I learned that it has a unique resolution causing problems in apps.
 
+
 ### Implementation
 My testing was done through Chrome DevTools 
 
@@ -189,6 +190,7 @@ My testing was done through Chrome DevTools
 ## Bugs
 <hr>
 My images show up when I open up python3 -m http.server but not when I open my project as a website through github pages.
+
 
 
 
