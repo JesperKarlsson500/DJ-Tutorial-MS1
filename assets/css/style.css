@@ -1,11 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -17,10 +16,6 @@ body {
     --rich-black: #161925;
     --rich-blue: #0d0535;
     --dark-rich-blue: #080322;
-    --prussian-blue: #23395B;
-    --queen-blue: #406E8E;
-    --cadet-gray: #8EA8C3;
-    --light-cyan: #CBF7ED;
 }
 
 .color-white {
@@ -51,7 +46,6 @@ h2 a {
 
 .playground:hover {
     color: var(--red-orange);
-    
 }
 
 /*----------------------------------------------Images*/
@@ -193,7 +187,6 @@ header {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    /*position: relative;*/
     width: 100%;
     height: 90vh;
 }
@@ -203,14 +196,14 @@ header {
     left: 45%;
     width: 10%;
     height: 2px;
-    background-color: var(--red-orange); /*var(--prussian-blue);*/
+    background-color: var(--red-orange);
     border: none;
 }
 
 .hr-big {
     height: 2px;
     width: 100%;
-    background-color: /*#bf3e84;*/ var(--red-orange);
+    background-color: var(--red-orange);
     border: none;
 }
 
@@ -298,7 +291,7 @@ header {
       
     }
 
-    .right carousel-control {
+    .right .carousel-control {
         width: 30px;
     }
 
@@ -334,17 +327,6 @@ header {
         padding: 20px 20px;
         border: solid 2px var(--red-orange);
         border-radius: 10px;
-    }
-    
-    .imgthicker {
-        margin-top: 1vh;
-        height: 60vh;
-        width: 70vw;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
     }
 
     .carousel-indicators {
@@ -391,6 +373,12 @@ header {
     margin: auto;
     width: 70%;
     height: 45vh;
+}
+
+.form {
+    padding: 2em 1em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 25px var(--red-orange);
 }
 
 /*----------------------------------------------Responsive Design */
