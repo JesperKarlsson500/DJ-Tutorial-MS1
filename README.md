@@ -82,8 +82,8 @@ giving them structure on their journey to become a DJ.
 On the Home page you are greeted by a full page image of a DJ's workstation, turntables and a mixer.
 This image represents the whole purpose of the site. In section two you have a dark purple background contrasting 
 the orange horizontal rule and white text, making it easy to read. In section three, there is another image of 
-turntables and a mixer. This time in brighter colors, with white text glowing pink. 
-The bright colors are chosen purposefully to make the user excited for the next step.
+turntables and a mixer. This time in brighter colorsand with glowing orange text that pulsates when hovered over. 
+The bright colors are chosen to make the user excited for the next step.
 
 #### Tutorial
 While speaking to my mentor she recommended me to use a carousel to showcase my 
