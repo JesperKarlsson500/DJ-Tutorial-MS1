@@ -111,24 +111,27 @@ I don't recommend this because I had a lot of trail and error. I think this accu
 more time then making new wireframes.
 
 ## Original ideas
-* The project had three pages full of text and pictures. Mentor Antonija helped me see that 
+<hr>
+The project had three pages full of text and pictures. Mentor Antonija helped me see that 
 less is more. She adviced me to create sections on the first page and give the elements some room.
 
-* I created a scroll down button on all sections on the Home page to guide the user.
+I created a scroll down button on all sections on the Home page to guide the user.
 but speaking with my mentor Antonija she asked If that was really necessary. We had a discussion 
 and I came to the conclution that you scroll down by instinct when you enter a page, so I took that away.
 
-* I wanted to create a decontructed upside down pyramid, created by three 
+I wanted to create a decontructed upside down pyramid, created by three 
 boxes on the home page. You would have the DJ Tutorial logo on the top box followed by an 
 inspirational text and the scroll down text. It would all create the shape of an arrow 
 pointing down. The idea was interesting but when i executed it, it dident turn out so good.
 It gave a bad impression of the page and I oppted to go with less is more.
 
-* Renamed and reworked challenge.html and contact.html to playground.html and signup.html.
+Renamed and reworked challenge.html and contact.html to playground.html and signup.html.
 Reasoning: Playground and Signup sounds more appealing and intuative, It's a better call to action. 
 Moved my two soundcloud link to Playground from Home page to improve load times and performance.
 
 ## Features
+<hr>
+
 * Responsive Navbar menu collapsing into a hamburger dropdown menu on tablets and phones.
 * Easy navigation through the pages using the navbar.
 * Homepage with an images of the workstation of a DJ. 
@@ -140,6 +143,7 @@ Moved my two soundcloud link to Playground from Home page to improve load times 
 * Create a multiple choice challenge for the user so they can test their skills learned.
 
 ## Technologies
+<hr>
 This project was build using the following technologies:
 
 * HTML5
@@ -147,17 +151,31 @@ This project was build using the following technologies:
 * Bootstrap: Carousel
 * Google Chrome DevTools: Helped me iterate, debug and profile my site.
 * Lighthouse: Helped me improve the websites performance on both desktop and mobile.
+* Jigsaw W3C validator: Validated and tested my CSS.
+* W3C Markup validator: Validated and tested my HTML.
+
 
 ## Testing
+<hr>
 I see my users using both desktop and mobile, so I had that in mind when I created my responsive design.
+
+* Markup Validator warning: The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment. 
+I was using to many hyphens so I removed the excess ones.
+
+* Markup Validator error: Can't put horizontal rule as a child element of any header element. 
+So I move the horizontal rule outside of any header element.
+
 
 ### Testing plan 
 
 ### Implementation
 
+
 ## Results
+<hr>
 
 ## Bugs
+<hr>
 
 #### Navbar dropdown menu did not work when I click the hamburger icon.
 Solution: Added <script src="script.js"></script> in the body
