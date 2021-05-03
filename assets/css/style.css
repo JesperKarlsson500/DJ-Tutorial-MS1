@@ -63,6 +63,15 @@ h2 a {
     height: 100vh;
 }
 
+img {
+    height: 379px;
+    display: block;
+    max-width: 100%;
+    background: transparent no-repeat center;
+    background-size: cover;
+    
+}
+
 /*----------------------------------------------page-one*/
 
 .page-one {
@@ -321,6 +330,7 @@ header {
 
     .carousel-indicators {
         bottom: 50px;
+        top: 92vh;
     }
 
     .text-inner h2 {
@@ -473,12 +483,6 @@ iframe {
 .social-network li i {
     font-size: 200%;
     margin: 0 10px;
-}
-/*----------------------------------------------Wireframes*/
-
-img[src*="#thumbnail"] {
-    width: 210px;
-    height: 297px;
 }
 
 /*----------------------------------------------Responsive Design */
