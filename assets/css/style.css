@@ -320,7 +320,8 @@ header {
 
     .text-inner {
         color: white;
-        background-color: rgba(31, 31, 31, 0.95);
+        background-color: black;
+        /*background-color: rgba(31, 31, 31, 0.95);*/
         width: 60%;
         margin: 1em 0;
         display: inline-block;
@@ -361,6 +362,29 @@ header {
         margin-top: 15px;
         font-size: 2em;
     }
+
+    .j-button a {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px var(--red-orange), 0 0 40px var(--red-orange), 0 0 50px var(--red-orange), 0 0 60px var(--red-orange), 0 0 70px var(--red-orange);
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 2em;
+    }
+
+    .j-button a:hover {
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--red-orange), 0 0 40px var(--red-orange), 0 0 50px var(--red-orange), 0 0 60px var(--red-orange), 0 0 70px var(--red-orange);
+        }
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px var(--red-orange), 0 0 40px var(--red-orange), 0 0 50px var(--red-orange), 0 0 60px var(--red-orange), 0 0 70px var(--red-orange), 0 0 80px var(--red-orange);
+        }
+    }
+    
 
 /*----------------------------------------------Playground*/
 
