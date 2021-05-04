@@ -178,7 +178,7 @@ resolution that can cause overflow problems.
 ### Implementation
 In my tests I used Chrome DevTools, Checking through different resolutions and devices.
 I used Lighthouse to check the performance on both mobile and desktop and search for errors.
-I used W3C code validator for both CSS and HTML. 
+I used W3C code validator for both CSS and HTML. I test all my link to check that they're working.
 
 #### When using code validator I found:
 
